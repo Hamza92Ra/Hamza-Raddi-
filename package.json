@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "python3 -m http.server 4173",
-    "lint": "node --check script.js && node --check showcase-data.js && node scripts/validate.mjs",
+    "lint": "node --check script.js && node --check showcase-data.js && node --check translations.js && node --check contact.js && node --check site-config.js && node scripts/validate.mjs",
     "build": "node scripts/build.mjs"
   }
 }
